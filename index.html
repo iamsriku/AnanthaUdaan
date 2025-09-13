@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anantha Udaan</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Background abstract pencil pattern -->
+  <div class="bg-sketch" aria-hidden="true"></div>
+
+  <!-- Site-wide subtle liquid gradient -->
+  <div class="site-gradient" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="site-header container" role="banner">
+    <div class="brand">
+      <img src="logo.png" alt="Anantha Udaan logo" class="brand-logo" />
+      <a href="#home" class="brand-name">Anantha Udaan</a>
+    </div>
+    <nav class="nav-actions" role="navigation" aria-label="Main navigation">
+      <a class="capsule" href="#mission">Mission</a>
+      <a class="capsule" href="#our-work">Our work</a>
+      <a class="capsule" href="#presented">Recoginations</a>
+      <a class="capsule" href="#about">Contact us</a>
+    </nav>
+  </header>
+
+  <!-- Main / Home -->
+  <main id="home" class="hero container section" role="main">
+    <div class="hero-left">
+      <h1 class="hero-title">Empowering Marginalised Society</h1>
+      <p class="hero-copy">
+        Student-led. Community-rooted. Practical impact through documentation, education, and skills.
+      </p>
+      <div class="hero-cta">
+        <a href="#contribute" class="btn primary">Contribute</a>
+        <a href="#join" class="btn ghost">Join the Movement</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="video-wrap">
+        <video width="100%" height="100%" controls>
+          <source src="Au.mp4" type="video/mp4">
+        </video>
+      </div>
+      <svg class="hero-wave" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0%" stop-color="#16A34A" stop-opacity="0.14" />
+            <stop offset="60%" stop-color="#22c55e" stop-opacity="0.08" />
+            <stop offset="100%" stop-color="#34d399" stop-opacity="0.04" />
+          </linearGradient>
+        </defs>
+        <path d="M100 18 C86 34 70 58 46 72 C24 84 8 86 0 84 L0 100 L100 100 Z" fill="url(#g1)"></path>
+      </svg>
+    </div>
+  </main>
+
+  <!-- Mission + Vision -->
+  <section id="mission" class="section section-alt container mission-two-col" aria-labelledby="mission-heading">
+    <div class="left-col">
+      <div class="stack gap-16">
+        <div class="card brown glow">
+          <h2 class="h3" id="mission-heading">Vision</h2>
+          <p>
+            A world where every individual can reach their fullest potential, supported by a united community.
+          </p>
+        </div>
+
+        <div class="card brown glow">
+          <h2 class="h3">Mission</h2>
+          <p>
+            To empower marginalised communities through education, skill-building, and sustainable development, fostering self-reliance and dignity.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="right-col">
+      <div class="card card-image glow center mission-image-card">
+        <img src="image2.png" alt="Mission & Vision illustration" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Problems We Solve -->
+  <section id="problems" class="section container" aria-labelledby="problems-heading">
+    <header class="section-header">
+      <h2 class="h2" id="problems-heading">Problems We Solve</h2>
+      <p class="muted">From documentation to education and skills — we build a clear path to dignity and opportunity.</p>
+    </header>
+
+    <!-- Grid line 1 -->
+    <div class="grid-line">
+      <div class="card brown glow card-tight">
+        <h3 class="h4">Dastavezikaran</h3>
+        <p class="muted-l">Documentation and beneficiary support.</p>
+      </div>
+      <div class="card card-image glow card-tight"><img src="image3.png" alt="Documentation support 1" loading="lazy" /></div>
+      <div class="card card-image glow card-tight"><img src="image4.png" alt="Documentation support 2" loading="lazy" /></div>
+      <div class="card card-image glow card-tight"><img src="image5.png" alt="Documentation support 3" loading="lazy" /></div>
+    </div>
+
+    <!-- Grid line 2 -->
+    <div class="grid-line">
+      <div class="card brown glow card-tight">
+        <h3 class="h4">Education</h3>
+        <p class="muted-l">Preparing for KV, CHS, JNV.</p>
+      </div>
+      <div class="card card-image glow card-tight"><img src="image6.png" alt="Education 1" loading="lazy" /></div>
+      <div class="card card-image glow card-tight"><img src="image7.png" alt="Education 2" loading="lazy" /></div>
+      <div class="card card-image glow card-tight"><img src="image8.png" alt="Education 3" loading="lazy" /></div>
+    </div>
+
+    <!-- Grid line 3 -->
+    <div class="grid-line">
+      <div class="card brown glow card-tight">
+        <h3 class="h4">Skill Development</h3>
+        <p class="muted-l">Market-ready, livelihood-linked training.</p>
+      </div>
+      <div class="card card-image glow card-tight"><img src="image9.png" alt="Skill development 1" loading="lazy" /></div>
+      <div class="card card-image glow card-tight"><img src="image10.png" alt="Skill development 2" loading="lazy" /></div>
+      <div class="card card-image glow card-tight"><img src="image11.png" alt="Skill development 3" loading="lazy" /></div>
+    </div>
+  </section>
+
+  <!-- Our Drive / Our Work -->
+  <section id="our-work" class="section container" aria-labelledby="our-work-heading">
+    <header class="section-header">
+      <h2 class="h2" id="our-work-heading">Our Drive</h2>
+      <p class="muted">Focused projects and campaigns that power our mission — practical, local, and sustainable.</p>
+    </header>
+
+    <div class="work-grid">
+      <article class="work-card card glow">
+        <div class="work-img"><img src="work1.png" alt="Work 1" loading="lazy" /></div>
+        <div class="work-title">Financial Inclusion Drive</div>
+      </article>
+
+      <article class="work-card card glow">
+        <div class="work-img"><img src="work2.png" alt="Work 2" loading="lazy" /></div>
+        <div class="work-title">Annapurna Drive</div>
+      </article>
+
+      <article class="work-card card glow">
+        <div class="work-img"><img src="work3.png" alt="Work 3" loading="lazy" /></div>
+        <div class="work-title">Distribution Drive</div>
+      </article>
+
+      <article class="work-card card glow">
+        <div class="work-img"><img src="work4.png" alt="Work 4" loading="lazy" /></div>
+        <div class="work-title">Vastradan Drive</div>
+      </article>
+
+      <article class="work-card card glow">
+        <div class="work-img"><img src="work5.png" alt="Work 5" loading="lazy" /></div>
+        <div class="work-title">Health Camps</div>
+      </article>
+
+      <article class="work-card card glow">
+        <div class="work-img"><img src="work6.png" alt="Work 6" loading="lazy" /></div>
+        <div class="work-title">Deworming Drive</div>
+      </article>
+
+      <article class="work-card card glow">
+        <div class="work-img"><img src="work7.png" alt="Work 7" loading="lazy" /></div>
+        <div class="work-title">Women Empowerment</div>
+      </article>
+
+      <article class="work-card card glow">
+        <div class="work-img"><img src="work8.png" alt="Work 8" loading="lazy" /></div>
+        <div class="work-title">Sparsh Drive</div>
+      </article>
+
+      <article class="work-card card glow">
+        <div class="work-img"><img src="work9.png" alt="Work 9" loading="lazy" /></div>
+        <div class="work-title">Govt Scheme Awareness</div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements" class="section container" aria-labelledby="achievements-heading">
+    <header class="section-header">
+      <h2 class="h2" id="achievements-heading">Achievements</h2>
+      <p class="muted">Small actions. Lasting change. At Ananth Udaan, every step we take is student-led and community-rooted.</p>
+    </header>
+
+    <div class="cards-grid-4">
+      <article class="card glow">
+        <h3 class="h4">Legal Identity &amp; Access</h3>
+        <ul class="tick-list">
+          <li><strong>25+</strong> students supported in securing income and domicile certificates.</li>
+          <li>Enabled access to scholarships, education, and welfare schemes.</li>
+          <li><strong>10+</strong> children now hold birth certificates.</li>
+          <li><strong>10+</strong> families assisted with Aadhaar and ration card facilitation.</li>
+        </ul>
+      </article>
+
+      <article class="card glow">
+        <h3 class="h4">Financial Inclusion</h3>
+        <ul class="tick-list">
+          <li><strong>30+</strong> families helped open joint bank accounts.</li>
+          <li>Empowered with financial identity, savings access, and stability.</li>
+        </ul>
+      </article>
+
+      <article class="card glow">
+        <h3 class="h4">Operation Pahal</h3>
+        <ul class="tick-list">
+          <li>Volunteers escort children to school in Chittupur and Bhagwanpur.</li>
+          <li>Weekly felicitation sessions reward attendance and academic effort.</li>
+        </ul>
+      </article>
+
+      <article class="card glow">
+        <h3 class="h4">Community Awareness</h3>
+        <ul class="tick-list">
+          <li>Conducted financial literacy and welfare awareness sessions.</li>
+          <li>Families are educated on schemes, entitlements, and informed decision-making.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- Presented (Recoginations) -->
+  <section id="presented" class="section container" aria-labelledby="presented-heading">
+    <header class="section-header">
+      <h2 class="h2" id="presented-heading">Presented</h2>
+    </header>
+
+    <div class="cards-grid-4 presented-grid">
+      <figure class="card card-image glow presented-card">
+        <img src="image12.png" alt="Represented in Kashi Youth Summit" loading="lazy" />
+        <figcaption class="caption">Represented in Kashi Youth Summit</figcaption>
+      </figure>
+      <figure class="card card-image glow presented-card">
+        <img src="image13.png" alt="Held in Varanasi" loading="lazy" />
+        <figcaption class="caption">Held in Varanasi</figcaption>
+      </figure>
+      <figure class="card card-image glow presented-card">
+        <img src="image14.png" alt="Hosted by Ministry of Youth Affairs" loading="lazy" />
+        <figcaption class="caption">Hosted by Ministry of Youth Affairs</figcaption>
+      </figure>
+      <figure class="card card-image glow presented-card">
+        <img src="image15.png" alt="Also represented at Atal Incubation Centre" loading="lazy" />
+        <figcaption class="caption">Also represented at Atal Incubation Centre</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Contribute (single rectangular card: left square QR, right content) -->
+  <section id="contribute" class="section container" aria-labelledby="contribute-heading">
+    <header class="section-header">
+      <h2 class="h2" id="contribute-heading">Contribute Our Mission</h2>
+    </header>
+
+    <div class="card glow single-rect">
+      <div class="rect-left qr-wrap" aria-hidden="false">
+        <img src="image16.png" alt="Donate via QR" class="qr-img" loading="lazy" />
+      </div>
+
+      <div class="rect-right">
+        <h2 class="h3">Contribute</h2>
+        <p class="muted-l">Your support powers fieldwork and keeps children in school.</p>
+        <div class="kv">
+          <div class="kv-row">
+            <span class="k">UPI ID</span>
+            <span class="v">ananthudaan@upi</span>
+          </div>
+          <div class="kv-row">
+            <span class="k">Phone</span>
+            <span class="v">+91 91299 92067</span>
+          </div>
+        </div>
+
+        <div class="contribute-actions">
+          <a href="https://drive.google.com/drive/folders/1xNxaekS753PrCMt6DEVBS1a2Uc-AVUUP?usp=drive_link"
+             class="btn white-capsule" target="_blank" rel="noopener noreferrer" aria-label="Financial Reports">Financial Reports</a>
+
+          <a href="https://docs.google.com/spreadsheets/d/1xIzdlGxO" class="btn primary" target="_blank" rel="noopener noreferrer">Donate Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Join Us (single rectangular card: left square QR, right content) -->
+  <section id="join" class="section container" aria-labelledby="join-heading">
+    <header class="section-header">
+      <h2 class="h2" id="join-heading">Join Our Dynamic Team</h2>
+    </header>
+
+    <div class="card glow single-rect">
+      <div class="rect-left qr-wrap">
+        <img src="image17.png" alt="Join via QR" class="qr-img" loading="lazy" />
+      </div>
+
+      <div class="rect-right">
+        <h2 class="h3">Join Us</h2>
+        <p class="muted-l">
+          Change begins with people like you. At Ananth Udaan, our volunteers are the heartbeat of every initiative. If you're passionate about uplifting communities, we invite you to join the movement.
+        </p>
+
+        <div class="join-actions">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScmIVxmedGKzkLPRfjO8J5hoYdV74tOV_5BPJmUT_qWneZqWA/viewform"
+             class="btn primary" target="_blank" rel="noopener noreferrer" aria-label="Be a Volunteer">Be a Volunteer</a>
+        </div>
+
+        <h3 class="h5">Why Volunteer With Us?</h3>
+        <ul class="tick-list">
+          <li>Because your time can change lives.</li>
+          <li>And your growth is part of the journey too.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Contact -->
+  <section id="about" class="section container short-section" aria-labelledby="contact-heading">
+    <header class="section-header">
+      <h2 class="h2" id="contact-heading">Contact Us</h2>
+    </header>
+
+    <div class="contact-grid">
+      <a class="contact-card card glow" href="https://instagram.com/anantha.udaan" target="_blank" rel="noopener" aria-label="Instagram">
+        <span class="icon" aria-hidden="true">
+          <img src="instagram.png" alt="Instagram icon">
+        </span>
+        <div>
+          <div class="contact-label">Instagram</div>
+        </div>
+      </a>
+
+      <a class="contact-card card glow" href="https://www.linkedin.com/company/anantha-udaan/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <span class="icon" aria-hidden="true">
+          <img src="linkedin.png" alt="LinkedIn icon">
+        </span>
+        <div>
+          <div class="contact-label">LinkedIn</div>
+        </div>
+      </a>
+
+      <a class="contact-card card glow" href="tel:+919129992067" aria-label="Call Ananth Udaan">
+        <span class="icon" aria-hidden="true">
+          <img src="call.png" alt="Call icon">
+        </span>
+        <div>
+          <div class="contact-label">+91 91299 92067</div>
+        </div>
+      </a>
+
+      <a class="contact-card card glow" href="https://wa.me/919129992067" target="_blank" rel="noopener" aria-label="WhatsApp Ananth Udaan">
+        <span class="icon" aria-hidden="true">
+          <img src="whatsapp.png" alt="WhatsApp icon">
+        </span>
+        <div>
+          <div class="contact-label">WhatsApp</div>
+        </div>
+      </a>
+
+      <a class="contact-card card glow" href="mailto:ananthaudaan@gmail.com" aria-label="Email Ananth Udaan">
+        <span class="icon" aria-hidden="true">
+          <img src="email.png" alt="Email icon">
+        </span>
+        <div>
+          <div class="contact-label">Email</div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <footer class="site-footer container" role="contentinfo">
+    <p>© <span id="year"></span> Ananth Udaan • Built with care.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
